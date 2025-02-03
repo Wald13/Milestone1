@@ -50,7 +50,9 @@ margin-left: 20px;
 /* Media Queries for Small Screens (Max width 768px) */
 @media screen and (max-width: 768px) {
     /* Hide regular buttons */
-   
+   .buttons {
+        display: none;
+    }
     
     /* Show burger icon */
     .burger-icon {
