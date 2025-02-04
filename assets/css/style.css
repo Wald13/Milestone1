@@ -1,61 +1,120 @@
 /* Google Font */
-
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Federo&display=swap');
-/*header styling */
+
+/* Header styling */
 header {
     font-size: 100px;
     position: relative;
     text-align: center;
-    font-weight: 900px;
+    font-weight: 900;
     text-shadow: 8px 8px 0px black;
+    margin: 0;
 }
-    /* Background Image */
-    
+
+/* Background Image */
 body {
-        background: url('../images/bgimg1.jpg') no-repeat center/cover;
-        height: 100vh;
-        margin: 0;
-    }
-    /* Container styling */
+    background: url('../images/bgimg1.jpg') no-repeat center/cover;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container styling */
+#hello, #greating, .me {
+    color: rgb(22, 21, 21);
+}
+
 #hello {
-color: rgb(22, 21, 21);
-margin-left: 20px;
+    margin-left: 20px;
 }
 #greating {
-    color: rgb(22, 21, 21);
     margin-bottom: 20px;
 }
 .me {
-    color: rgb(22, 21, 21);
     margin-top: 20px;
 }
 
+/* Image styling */
 .img-fluid {
     max-width: 50%;
 }
-/* Image styling */
+
 .bgimg {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
+
 /* Button styling */
 .buttons {
     margin: 10px;
 }
 
-.buttons :hover {
-    background-color: rgb(33, 32, 32);  /* Darker shade on hover */
+.buttons:hover {
+    background-color: rgb(33, 32, 32); /* Darker shade on hover */
     color: white;
 }
+
+/* Hamburger Menu */
+.hamburger-menu {
+    display: none; /* Hide hamburger by default */
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute; /* Position it on the right side */
+    top: 20px;
+    right: 20px; /* Position to the right side */
+}
+
+/* Hidden checkbox to control the menu */
+input[type="checkbox"] {
+    display: none; /* Hide the checkbox */
+}
+
 /* Media Queries for Small Screens (Max width 768px) */
 @media screen and (max-width: 768px) {
-    /* Hide regular buttons */
-   .buttons {
-        display: none;
+    .hamburger-menu {
+        display: block; /* Show hamburger icon on small screens */
     }
-    
-    /* Show burger icon */
-    .burger-icon {
-        display: block;
+
+    header {
+        font-size: 60px; /* Smaller font size for medium screens (tablets) */
+        text-shadow: 5px 5px 0px black; /* Adjust shadow for smaller text */
+    }
+
+    .nav-items {
+        display: none; /* Hide nav buttons on small screens */
+        position: absolute; /* Position it under the hamburger menu */
+        top: 50px; /* Move it below the hamburger icon */
+        right: 20px; /* Align with hamburger icon */
+        background-color: rgba(0, 0, 0, 0.8); /* Dark background for the dropdown */
+        width: 200px; /* Set a width for the dropdown */
+        flex-direction: column; /* Stack nav items vertically */
+        text-align: center;
+        padding: 10px 0;
+        border-radius: 5px;
+    }
+
+    .nav-items button {
+        padding: 10px;
+        color: white;
+        background-color: transparent;
+        border: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-items button:hover {
+        background-color: rgb(33, 32, 32); /* Darker shade on hover */
+    }
+
+    /* Show nav items when checkbox is checked */
+    input[type="checkbox"]:checked + .nav-items {
+        display: flex; /* Display nav items when checkbox is checked */
+    }
+}
+
+/* Media Query for Mobile (Max width 480px) */
+@media screen and (max-width: 480px) {
+    header {
+        font-size: 40px; /* Even smaller font size for mobile screens */
+        text-shadow: 3px 3px 0px black; /* Reduce shadow size */
     }
 }
