@@ -38,19 +38,24 @@ body {
 /* Navigation Items Styling (Dropdown) */
 .nav-items {
     display: flex; /* Display the navigation items horizontally by default */
-    gap: 20px; /* Space between buttons */
+    gap: 5px; /* Space between buttons */
     z-index: 1000; /* Ensure it appears above other content */
+    margin-top: 35px;
 }
 
 /* Button Styling */
 .nav-items button {
     padding: 10px 20px;
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: transparent;
-    border: 2px solid white;
     font-size: 18px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    text-align: center; /* Center the text */
+    width: 100%;
+    max-width: 150%; /* Maximum width of the button */
+    display: block;
+    box-sizing: border-box; /* Include padding in the width */
 }
 
 .nav-items button:hover {
@@ -73,13 +78,22 @@ input[type="checkbox"]:checked ~ .nav-items {
     position: absolute; /* Position the dropdown */
     top: 70px; /* Position below the header */
     right: 20px; /* Position on the right */
-    width: 200px; /* Width of the dropdown */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);/* Add shadow */
+    width: 90px; /* Width of the dropdown */
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.5);/* Add shadow */
 }
 
 /* Initially hide the buttons on smaller screens */
 .nav-items {
     display: flex; /* Horizontal by default */
+}
+/* Image styles */
+.img-fluid {
+    max-width: 100%;/*Responsive image*/
+    height: auto;
+}
+/*Text styles*/
+.me .about {
+   text-align: center;
 }
 
 /* Media Queries for Small Screens (Max width 768px) */
@@ -102,9 +116,33 @@ input[type="checkbox"]:checked ~ .nav-items {
         display: flex; /* Show the navigation items in column direction */
         flex-direction: column; /* Stack vertically */
         align-items: center; /* Center the items */
-        background-color: rgb(33, 32, 32); /* Dark background */
+        background-color: rgb(8, 8, 8, 0.3); /* Dark background */
         padding: 10px 0; /* Add padding */
+        color: black; /* Change text color */
     }
+    .col-md-6 {
+        flex: 1; /* colunms take up equal space */
+    }
+    /*Imange and text styles*/
+    .row { 
+        display: flex; /* Display columns in a row */
+        justify-content: center; /* Center the columns */
+        align-items: center; /* Center the items vertically */
+        flex-direction: column; /* Stack columns vertically */
+    }
+    .col-12 {
+        width: 100%; /* Full width */
+    }
+    .col-md-6 {
+      flex: 1; /* Equal width for columns */
+    }
+    .me, .about {
+        text-align: center; /* Center the text */
+        margin: 10px; /* Add margin */
+    }
+    .col-md-6 img {
+        width: 100%; /* Full width */
+}
 }
 
 /* Media Query for Mobile (Max width 480px) */
