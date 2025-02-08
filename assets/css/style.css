@@ -5,6 +5,8 @@
 html, body {
     height: 100%;
     margin: 0;
+    display: flex; 
+    flex-direction: column;
 }
 body {
     background-image: url('../images/bgimg.jpg'); 
@@ -13,6 +15,8 @@ body {
     height: 100%;
 }
 /* navbar styles */
+
+
 .portfolio {
     color: white;
     margin-top: 20px;
@@ -21,3 +25,51 @@ body {
 }
 
 /* Navbar items styles */
+.navbar-toggler {
+   background-color: rgb(21, 25, 29);
+   color: rgb(255, 255, 255);
+}
+.nav-link {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* Main content styles */
+.container {
+    background-color: rgb(19, 221, 248, 0.8);
+    margin-top: 0;
+    font-size: 30px;
+    flex-grow: 1;
+    margin: 0, 20px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+/* Footer styles */
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: black;
+    margin: 0;
+  }
+  #social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #ffffff
+  }
+  #social-networks i:hover {
+    color: rgb(19, 221, 248,);
+  }
+  @media screen and (min-width: 1024px) {
+    .container {
+      margin: 30px;
+      
+    }
+  }
