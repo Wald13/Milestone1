@@ -9,7 +9,7 @@ html, body {
     flex-direction: column;
 }
 body {
-    background-image: url('../images/bgimg.jpg'); 
+    background-image: url('../images/bgimg2.jpg'); 
     background-size: cover;
     background-position: center center;
     height: 100%;
@@ -36,11 +36,11 @@ body {
 }
 /* Main content styles */
 .container {
-    background-color: rgb(19, 221, 248, 0.8);
+    background-color: rgba(228, 228, 228, 0.8);
     margin-top: 0;
     font-size: 30px;
     flex-grow: 1;
-    margin: 0, 20px;
+    margin: 40px, 40px;
 }
 h1 {
     display: flex;
