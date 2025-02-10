@@ -13,44 +13,52 @@ body {
     background-size: cover;
     background-position: center center;
     height: 100%;
+    position: relative;
 }
+
 /* navbar styles */
-
-
 .portfolio {
-    color: white;
+    color: rgba(228, 228, 228, 0.8);
     margin-top: 20px;
     font-size: 50px;
     font-weight: bold;
+    font-family: 'Playfair Display', serif;
 }
 
 /* Navbar items styles */
 .navbar-toggler {
-   background-color: rgb(21, 25, 29);
-   color: rgb(255, 255, 255);
+   background-color: rgba(228, 228, 228, 0.8);
 }
+
 .nav-link {
     color: white;
     font-size: 20px;
     font-weight: bold;
+    font-family: 'Playfair Display', serif;
 }
 /* Main content styles */
 .container {
     background-color: rgba(228, 228, 228, 0.8);
-    margin-top: 0;
-    font-size: 30px;
     flex-grow: 1;
-    margin: 40px, 40px;
+    margin: auto;
+    padding-top: 40px;
 }
+/*Centering the text */
 h1 {
     display: flex;
     justify-content: center;
-    margin-left: 40px;
+    font-family: 'Playfair Display', serif;
+}
+/*text styles */
+.text  {
+  font-size: 22px;
+  font-family: 'Playfair Display', serif;
+
 }
 
 /* Footer styles */
 
-#social-networks {
+.social-networks {
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -58,18 +66,41 @@ h1 {
     list-style-type: none;
     background-color: black;
     margin: 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
   }
-  #social-networks i {
+  .social-networks i {
     font-size: 160%;
     padding: 5%;
     color: #ffffff
   }
-  #social-networks i:hover {
+  .social-networks i:hover {
     color: rgb(19, 221, 248,);
   }
-  @media screen and (min-width: 1024px) {
+
+  /* Media queries */
+  @media screen and (max-width: 768px) {
     .container {
-      margin: 30px;
-      
-    }
+    width: 100%;
+    margin: 0;
+    padding-bottom: 40px;
   }
+  .text  {
+    font-size: 22px;
+  }
+}
+
+
+  @media screen and (min-width: 768px) {
+    .container {
+      max-width: 700px;
+      margin: 40px auto;    
+    }
+  .img-fluid {
+   size: 80%;
+  }
+  .social-networks {
+    margin-top: 40px;
+  }
+}
