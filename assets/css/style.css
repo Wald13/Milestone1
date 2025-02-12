@@ -29,7 +29,7 @@ header {
     color: rgba(228, 228, 228, 0.8);
     margin-top: 20px;
     font-size: 60px;
-    font-weight: bold;
+    font-weight: 700;
     font-family: 'Playfair Display', serif;
     text-decoration: none;
   
@@ -54,7 +54,7 @@ header {
 .nav-link {
     color: white;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 700;
     font-family: 'Playfair Display', serif;
     margin: 0 15px;
 }
@@ -86,7 +86,7 @@ h1 {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color: black;
+    background-color: #000;
     margin: 0;
     position: relative;
     width: 100%;
@@ -95,14 +95,14 @@ h1 {
   .social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #ffffff
+    color: #fff
   }
   .social-networks i:hover {
     color: rgb(19, 221, 248,);
   }
   /* Contact form styles */
   .me {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 45px;
     line-height: 1;
   }
