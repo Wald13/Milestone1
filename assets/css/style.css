@@ -1,5 +1,4 @@
 /* Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Federo&display=swap');
 
 /* Background image styles*/
 html, body {
@@ -48,7 +47,6 @@ header {
 .navbar-nav {
   display: flex;
   justify-content: flex-start;
-  align-items: left;
   margin: 0;
 }
 .nav-link {
@@ -98,7 +96,7 @@ h1 {
     color: #fff
   }
   .social-networks i:hover {
-    color: rgb(19, 221, 248,);
+    color: #02f57b
   }
   /* Contact form styles */
   .me {
@@ -140,9 +138,6 @@ justify-content: center;
       max-width: 700px;
       margin: 40px auto;    
     }
-  .img-fluid {
-   size: 80%;
-  }
   .social-networks {
     margin-top: 40px;
   }
