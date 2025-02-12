@@ -30,3 +30,31 @@ As a student of the Level 5 Diploma in Web Development, I will be building my fi
  1. Googlefonts (https://fonts.google.com/)
  2. Fontawesome (https://fontawesome.com/)
  3. favicon (https://favicon.io/) 
+
+ # Wireframe:
+
+Wireframe ![wireframe](assets/images/Wireframe.png)
+
+
+# CSS and HTML validation:
+
+1. HTML files:
+
+Index (home) page:
+![homepage](assets/images/Index-html-validator.png)
+Experience page:
+![experiancepage](assets/images/experience-html-validator.png)
+Contact page:
+![contactpage](assets/images/contact-html-validator.png)
+
+#Lighthouse validator:
+
+![lighthouse](assets/images/ligthhouse1.png)
+![lighthouse](assets/images/ligthhouse2.png)
+![lighthouse](assets/images/ligthhouse3.png)
+
+
+
+## Information while building this project:
+
+1. This project was originally created under a different name (https://github.com/Wald13/Project-1.git). Unfortunately, while moving from Gitpod to VS Code, unexpected errors occurred. As a result, the first commits were copied and pasted from the previous project, along with what I could salvage from it.
