@@ -52,13 +52,14 @@ Wireframe ![wireframe](assets/images/Wireframe.png)
 ![contactpage](assets/images/contact-html-validator.png)
 
 ## CSS File:
-![homepage](assets/images/Indexcss-validator.png)
-![homepage](assets/images/Experiencecss-validator.png)
-![homepage](assets/images/Contactcss-validator.png)
-
 
 ### Index (Home) Page:
-R
+![homepage](assets/images/Indexcss-validator.png)
+### Experience page:
+![homepage](assets/images/Experiencecss-validator.png)
+### Contact page:
+![homepage](assets/images/Contactcss-validator.png)
+
 
 # Lighthouse validator:
 
@@ -71,11 +72,12 @@ https://pagespeed.web.dev/analysis/https-wald13-github-io-Milestone1-experience-
 ### Cpntact Page:
 https://pagespeed.web.dev/analysis/https-wald13-github-io-Milestone1-contact-html/twvamxxnbg?form_factor=mobile
 
-## Information while building this project:
+## ⚠️ Important Note on Development History
+This project was originally initiated under a different repository name (https://github.com/Wald13/Project-1.git). Due to technical issues encountered while migrating the project environment from Gitpod to VS Code, some unexpected errors occurred. As a result, the initial commits in this repository are a direct copy of the functional code that was salvaged from the previous project.
 
-1. This project was originally created under a different name (https://github.com/Wald13/Project-1.git). Unfortunately, while moving from Gitpod to VS Code, unexpected errors occurred. As a result, the first commits were copied and pasted from the previous project, along with what I could salvage from it.
+# 🌐 View the Live Project
+Explore the finished website hosted on GitHub Pages:
 
-
-# This is my live page:
+https://wald13.github.io/Milestone1/
 
 ### (https://wald13.github.io/Milestone1/)
