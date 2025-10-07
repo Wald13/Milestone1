@@ -1,27 +1,31 @@
-# Milestone 1 (My Portfolio)
+# 🚀 Milestone 1 Portfolio: Wilson Mendes
+Welcome! I'm Wilson Mendes, a student in the Level 5 Diploma in Web Development. This repository contains my first portfolio project, serving as a foundational milestone to demonstrate and solidify my front-end development skills.
 
-Welcome, my name is Wilson Mendes.
+## ✨ Project Goal & Purpose
+### This portfolio project had two primary objectives:
 
-As a student of the Level 5 Diploma in Web Development, I will be building my first portfolio using HTML and CSS, along with web tools like Bootstrap, Font Awesome, Favicon and Google Fonts. I will also leverage the resources from the Code Institute to guide me through the process.
+Fundamental Practice: To serve as a practical exercise in building an attractive and engaging single-page website, putting all foundational knowledge into practice.
 
-## The project idea:
+Future Foundation: To establish a strong, clean code base and design structure that will inform and be scaled up into my future professional portfolio.
 
-- Build my first portfolio to be used as practice for my future portfolio wedsite.
+## 🎯 Key Features
+The website is designed to be fully responsive and user-friendly across all devices.
 
-## Use of the project:
+Professional Layout: Clean, modern design built using the Bootstrap 5 grid system.
 
-- To be use for my personal development and enrichement in how to build a front-end website.
+Intuitive Navigation: A clear, consistent navigation bar for easy access to the Home, Experience, and Contact sections.
 
-## Porpose:
+Aesthetic Typography: Enhanced readability and design provided by Google Fonts.
 
-- As the first milestone, I'll put all the knowledge that been given and try to create a engaging and attractive webpage for my portfolio.
+Iconography: Use of Font Awesome to provide visual cues and modern flair.
 
-# Project **Portfolio**
-
-## Tools:
+## 🛠️ Technologies & Tools
+This project was built using a robust modern stack of foundational web technologies and frameworks:
  
- 1. HTML ![HTML-Logo](assets/images/HTML5-Logo.png)
- 2. CSS ![CSS-Logo](assets/images/CSS-Logo.png)
+ 1. HTML 
+ ![HTML-Logo](assets/images/HTML5-Logo.png)
+ 2. CSS 
+ ![CSS-Logo](assets/images/CSS-Logo.png)
  3. Bootstrap 5 (https://getbootstrap.com/)
  ![Bootstrap-Logo](assets/images/Bootstrap-Logo.jpg)
 
@@ -38,22 +42,34 @@ Wireframe ![wireframe](assets/images/Wireframe.png)
 
 # CSS and HTML validation:
 
-1. HTML files:
+## HTML Files:
 
-Index (home) page:
+### Index (home) page:
 ![homepage](assets/images/Index-html-validator.png)
-Experience page:
+### Experience page:
 ![experiancepage](assets/images/experience-html-validator.png)
-Contact page:
+### Contact page:
 ![contactpage](assets/images/contact-html-validator.png)
 
-#Lighthouse validator:
+## CSS File:
+![homepage](assets/images/Indexcss-validator.png)
+![homepage](assets/images/Experiencecss-validator.png)
+![homepage](assets/images/Contactcss-validator.png)
 
-![lighthouse](assets/images/ligthhouse1.png)
-![lighthouse](assets/images/ligthhouse2.png)
-![lighthouse](assets/images/ligthhouse3.png)
 
+### Index (Home) Page:
+R
 
+# Lighthouse validator:
+
+### Home Page:
+https://pagespeed.web.dev/analysis/https-wald13-github-io-Milestone1/9ktzv843nk?form_factor=mobile
+
+### Experience Page:
+https://pagespeed.web.dev/analysis/https-wald13-github-io-Milestone1-experience-html/4r2wywstiv?form_factor=mobile
+
+### Cpntact Page:
+https://pagespeed.web.dev/analysis/https-wald13-github-io-Milestone1-contact-html/twvamxxnbg?form_factor=mobile
 
 ## Information while building this project:
 
