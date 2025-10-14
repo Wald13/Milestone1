@@ -19,6 +19,20 @@ Aesthetic Typography: Enhanced readability and design provided by Google Fonts.
 
 Iconography: Use of Font Awesome to provide visual cues and modern flair.
 
+## 🌐 Deployment process:
+Running the project locally:
+1. Ensure you have a GitHub account [Create one here](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github).
+2. Use Google Chrome as the best browser for this deployment.
+3. Install VSCode to your computer or open the browser version [here](https://vscode.dev/).
+4. Click the 'Open Remote Repository' button on the home page to clone and or edit as you wish.
+
+To do the above you may need to follow these steps also:
+1. Open the repository in GitHub [here](https://github.com/Wald13/Milestone3)
+2. Click on the "Code" icon'.
+3. Select "GitHub CLI".
+4. Copy the CLI "gh repo clone (Name of the project).
+5. Paste it in vscode terminal.
+
 ## 🛠️ Technologies & Tools
 This project was built using a robust modern stack of foundational web technologies and frameworks:
  
@@ -69,7 +83,7 @@ https://pagespeed.web.dev/analysis/https-wald13-github-io-Milestone1/9ktzv843nk?
 ### Experience Page:
 https://pagespeed.web.dev/analysis/https-wald13-github-io-Milestone1-experience-html/4r2wywstiv?form_factor=mobile
 
-### Cpntact Page:
+### Contact Page:
 https://pagespeed.web.dev/analysis/https-wald13-github-io-Milestone1-contact-html/twvamxxnbg?form_factor=mobile
 
 ## ⚠️ Important Note on Development History
